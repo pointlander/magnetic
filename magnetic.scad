@@ -9,15 +9,15 @@ difference() {
         translate([40, 0, 33])
             rotate([90, 0, 33])
                 difference() {
-                    cylinder(25, 10, 10);
-                    translate([0, 0, 21]) {
-                        cylinder(2, 8, 8);
-                        cylinder(5, 6, 6);
+                    cylinder(27, 13, 13);
+                    translate([0, 0, 23]) {
+                        cylinder(2, 9, 9);
+                        cylinder(5, 7, 7);
                         translate([0, 5, 0]) {
-                            cylinder(2, 8, 8);
+                            cylinder(2, 10, 10);
                         }
                         translate([8, 2, 0]) {
-                            cylinder(2, 8, 8);
+                            cylinder(2, 10, 10);
                         }
                     }
                 }
